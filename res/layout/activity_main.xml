@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/mainContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+       android:id="@+id/mainContent"
+       android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#650000"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#350000"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>
